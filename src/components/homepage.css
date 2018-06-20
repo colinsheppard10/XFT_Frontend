@@ -1,0 +1,64 @@
+/* background on top panel */
+.ui.inverted.segment.colheading{
+    background: url('../images/gym.jpg') no-repeat center center scroll;
+    background-size: cover;
+}
+
+.ui.inverted.segment.colabout{
+    background: url('../images/xfit_weights.jpeg') no-repeat center center scroll;
+    background-size: cover;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+#overlay{
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* border around top menue bar */
+.ui.secondary.inverted.pointing.menu.colborder{
+    border-color: rgba(255, 255, 254, 0);
+}
+
+.ui.primary.button, .ui.primary.buttons .button {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2) !important;
+    background-color: #00c2cb;
+}
+
+.ui.primary.button:hover, .ui.primary.buttons:hover .button:hover{
+    background-color: #00a0a9;
+}
+
+.colicon {
+    float: right;
+}
+
+.ui.segment.colselectbox, .ui.inverted.segment.colselectbox {
+    background: #02c2cb;
+}
+
+.ui.inverted.segment .segment {
+    color: #3F3F3F;
+}
+
+/* .ui.card, .ui.cards>.card {
+    -webkit-box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    box-shadow: 3px 3px 2px 1px #acacac, 0 0 0 0px #acacac;
+} */
+
+.ui.card, .ui.cards>.card {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    background: #f1f1f1;
+}
+
+.ui.card.colcard, .ui.cards>.card.colcard {
+    background: #ffffff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
